@@ -1,0 +1,8 @@
+
+Fjavascript:S1128"%Remove this unused import of 'axios'.(íöóÛşÿÿÿÿ
+Wjavascript:S1481%";Remove the declaration of the unused 'categories' variable.(Ï´ãµ
+Tjavascript:S1854%"8Remove this useless assignment to variable "categories".(Ï´ãµ
+Zjavascript:S1481%">Remove the declaration of the unused 'setCategories' variable.(Ï´ãµ
+Wjavascript:S1854%";Remove this useless assignment to variable "setCategories".(Ï´ãµ
+ejavascript:S3358`"DExtract this nested ternary operation into an independent statement.(ïí›‹øÿÿÿÿ
+Rjavascript:S930Ä"6This function expects 1 argument, but 2 were provided.(Øìê•

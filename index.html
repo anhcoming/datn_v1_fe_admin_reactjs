@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tiny.cloud/1/wftjfuisx138yhwl96k6u4g2iqhpqxdn3bgoar892ep9gl6l/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+</head>
+
+<body>
+    <input id="myInput" type="file">
+    <button id="myBtn">Try it</button>
+    <span id="file"></span>
+
+    <script>
+        document.getElementById("myBtn").addEventListener("click", function () {
+            uploadFile1();
+        });
+
+        var fileByteArray = [];
+
+        function uploadFile1() {
+            var files = document.getElementById('myInput').files[0];
+            console.log("file: ", file);
+            // var reader = new FileReader();
+            // reader.onload = processFile(files);
+            // reader.readAsText(files);
+        }
+
+        function uploadFile2() {
+            var files = document.querySelector('input').files[0];
+            var reader = new FileReader();
+            reader.onload = processFile(files);
+            reader.readAsDataURL(files);
+        }
+
+        function uploadFile3() {
+            var files = myInput.files[0];
+            var reader = new FileReader();
+            reader.onload = processFile(files);
+            reader.readAsArrayBuffer(files);
+        }
+
+        function processFile(theFile) {
+            return function (e) {
+                var theBytes = e.target.result; //.split('base64,')[1]; // use with uploadFile2
+                fileByteArray.push(theBytes);
+                document.getElementById('file').innerText = '';
+                for (var i = 0; i < fileByteArray.length; i++) {
+                    document.getElementById('file').innerText += fileByteArray[i];
+                }
+                console.log(fileByteArray);
+            }
+        }
+        
+    </script>
+</body>
+
+</html>

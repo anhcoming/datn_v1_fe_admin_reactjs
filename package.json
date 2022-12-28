@@ -1,0 +1,59 @@
+{
+  "name": "admin-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^35.0.1",
+    "@ckeditor/ckeditor5-react": "^5.0.2",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@tinymce/tinymce-react": "^4.2.0",
+    "axios": "0.26.0",
+    "cloudinary-react": "^1.8.1",
+    "jwt-decode": "^3.1.2",
+    "moment": "^2.29.4",
+    "query-string": "^7.1.1",
+    "react": "^18.1.0",
+    "react-chartjs-2": "^4.2.0",
+    "react-colorful": "^5.6.1",
+    "react-datepicker": "^4.8.0",
+    "react-dom": "^18.1.0",
+    "react-hook-form": "^7.31.1",
+    "react-multi-select-component": "^4.3.0",
+    "react-rating-stars-component": "^2.2.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.4.0",
+    "react-spinners": "^0.13.1",
+    "react-stomp": "^5.1.0",
+    "react-toastify": "^9.0.1",
+    "sockjs": "^0.3.24",
+    "sockjs-client": "^1.6.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

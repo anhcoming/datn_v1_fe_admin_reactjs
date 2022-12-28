@@ -1,0 +1,16 @@
+export default {
+    LOGIN_SUCCESS: 'Đăng nhập thành công!',
+    LOGIN_FAILED: 'Sai thông tin đăng nhập!',
+    FORBIDDEN: 'Không có quyền truy cập!',
+    CHANGE_ORDER_STATUS_SUCCESS: 'Chuyển trạng thái thành công',
+    CHANGE_ORDER_STATUS_FAILED: 'Chuyển trạng thái không thành công',
+    INTERNAL_SERVER_ERROR: 'Hệ thống đang bị gián đoạn! Xin vui lòng thử lại sau',
+    SESSION_EXPIRED_DATE: 'Phiên đăng nhập đã hết hạn',
+    CREATED_DONE: 'Thêm mới thành công',
+    DELETE_SUCCESS: 'Xóa thành công',
+    DISCOUNT_HAS_USED_CAN_NOT_DELETE: 'Không thể xóa những mã khuyến mãi đã được sử dụng',
+    MUST_ADD_PRODUCT_TO_CATEGORY: 'Cần phải thêm ít nhất 1 sản phẩm vào danh sách',
+    UPDATE_SUCCESS: "Cập nhật thành công",
+    UPDATE_FAIL: "Cập nhật không thành công",
+    EXPORT_FAILED: 'Xuất File không thành công',
+}

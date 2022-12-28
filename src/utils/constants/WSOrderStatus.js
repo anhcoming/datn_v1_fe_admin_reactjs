@@ -1,0 +1,8 @@
+export default {
+    PENDING: 'PENDING',
+    CANCELED: 'CANCELED',
+    REJECTED: 'REJECTED',
+    ACCEPTED: 'ACCEPTED',
+    SHIPPING: 'SHIPPING',
+    RECEIVED: 'RECEIVED',
+}
